@@ -22,7 +22,7 @@
 .header-logo{
     color: #fff;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 24px;
 
 }
 .links{
@@ -37,4 +37,12 @@
     text-decoration: none;
     font-size: 1rem;
     color: #fff;
+}
+.homepage-container{
+    border: 2px solid chocolate;  /*for debugging*/
+
+}
+.img-container img{
+    width: 350px;
+    height: auto;
 }
