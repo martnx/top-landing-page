@@ -4,10 +4,33 @@
     box-sizing: border-box;
 }
 .header{
+    /* Design */
     background-color: #1F2937;
+    padding: 16px;
+
+    /* Semi logo like flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
 }
 .header-logo{
     color: #fff;
     font-weight: 800;
     font-size: 48px;
+
+}
+.links{
+    
+    list-style-type: none;
+
+    display: flex;
+    gap: 16px;
+
+}
+.links a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
 }
