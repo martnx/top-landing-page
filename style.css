@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .header{
     /* Design */
@@ -17,8 +21,8 @@
 }
 .header-logo{
     color: #fff;
-    font-weight: 800;
-    font-size: 48px;
+    font-weight: 600;
+    font-size: 2rem;
 
 }
 .links{
@@ -26,11 +30,11 @@
     list-style-type: none;
 
     display: flex;
-    gap: 16px;
+    gap: 1.5rem;
 
 }
 .links a{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
 }
