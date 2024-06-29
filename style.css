@@ -180,4 +180,57 @@ body{
     align-self: flex-end;
 }
 
+.contact{
+    padding: 36px 150px; 
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .call-action-container{
+    background-color: #3B82F6;
+    border-radius: 8px;
+    width: 1000px;
+    height: 150px;
+    padding: 32px 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+
+}
+
+.contact .call-action-container h3{
+    color: #FFFFFF;
+    font-weight: 600;
+    
+}
+
+.contact .call-action-container p{
+    color: #FFFFFF;
+
+}
+
+.contact .call-action-container button{
+    color: #fff;
+    background-color: #3B82F6;
+    border: 3px solid #fff;
+    padding: 4px 32px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
+.ca-h3p {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    
+}
+
+.ca-button{
+    flex-shrink: 0;
+}
