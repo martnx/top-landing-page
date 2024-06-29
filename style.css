@@ -111,7 +111,7 @@ body{
     background-color: #FFFFFF;
 }
 .information-container .info-title{
-    padding: 16px 150px;
+    padding: 32px;
 }
 .information-container h1{
     color: #1f1f1f;
@@ -126,7 +126,7 @@ body{
     gap: 32px;
     justify-content: center;
     padding: 0px 150px;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 
 }
 
@@ -153,6 +153,31 @@ body{
     width: 165px;
     color: #69717D;
  
+}
+
+.quote-container{
+    background-color: #E5E7EB;
+    padding: 110px 150px;
+
+   
+}
+.quote-container .quote{
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+.quote-container .quote .main-quote{
+    font-size: 32px;
+    font-style: italic;
+    
+}
+.quote-container .quote .writer{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 
