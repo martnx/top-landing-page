@@ -15,14 +15,14 @@ body{
 .header{
     /* Design */
     background-color: #1F2937;
-    padding: 16px 0;
+    padding: 16px 150px;
 
     /* Semi logo like flexbox */
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 16px 150px;
+    
 
 }
 .header-logo{
@@ -61,14 +61,14 @@ body{
     margin-bottom: 8px;
 }
 .homepage-container .title-p-btn button{
-    padding: 8px 32px;
+    padding: 4px 20px;
     background-color: #3882F6;
     font-size: 18px;
     font-weight: 600;
     color: white;
     margin-bottom: 8px;
     -webkit-border-radius: 16px;
-    border-radius: 16px;
+    border-radius: 8px;
 
 }
 .homepage-container .title-p-btn{
@@ -111,7 +111,7 @@ body{
     background-color: #FFFFFF;
 }
 .information-container .info-title{
-    padding: 32px;
+    padding: 16px 150px;
 }
 .information-container h1{
     color: #1f1f1f;
@@ -123,31 +123,36 @@ body{
 
 .information-container .box-container{ /*box container*/
     display: flex;
-    gap: 16px;
+    gap: 32px;
     justify-content: center;
+    padding: 0px 150px;
+    margin-bottom: 120px;
 
 }
 
 .information-container .box-container .box{ /*box container*/
-    border: 1px solid black;
     padding: 2px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
 
 }
 
 .information-container .box-container .box-blue{
-
-    border: 2px solid #3B82F6;
+    border-radius: 8px;
+    border: 4px solid #3B82F6;
     width: 165px;
     height: 165px;
 }
 
 .information-container .box-container .paragraph{
-
-    border: 2px solid #3B82F6;
+    width: 165px;
+    color: #69717D;
  
 }
+
+
